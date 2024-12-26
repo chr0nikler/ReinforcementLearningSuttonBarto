@@ -7,11 +7,20 @@ Second edition
 by *Richard S. Sutton and Andrew G. Barto*
 
 These are python scripts I've written to implement exercises or examples in the
-book, either standalong or using Gymnasium
+book, either standalone or using Gymnasium.
 
-This is a work in progress, the requirements are correct but are not pinned. I have to use
-python3.11 to run this. Something is wrong with python3.12 and swig or 
+This is a work in progress. The requirements.txt are correct, but I have to use
+python3.11 to run my scripts. Something is wrong with python3.12 and swig or 
 gymnasium[box2d] and I can't figure out why at the moment.
+
+## Installation
+
+For now, simply run:
+
+1. `python3 -m venv venv` unless you like to managed your virtual environments
+in a different way. Note that in the gitignore `venv` is ignored.
+2. `source venv/bin/activate`
+3. `pip install -r requirements.txt`
 
 
 

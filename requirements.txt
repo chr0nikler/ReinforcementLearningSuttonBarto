@@ -1,5 +1,4 @@
 
-gymnasium
-swig
-tqdm
-matplotlib-label-lines
+gymnasium==1.0.0
+swig==4.3.0
+tqdm==4.66.5
