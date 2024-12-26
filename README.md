@@ -17,7 +17,7 @@ gymnasium[box2d] and I can't figure out why at the moment.
 
 For now, simply run:
 
-1. `python3 -m venv venv` unless you like to managed your virtual environments
+1. `python3 -m venv venv` unless you like to manage your virtual environments
 in a different way. Note that in the gitignore `venv` is ignored.
 2. `source venv/bin/activate`
 3. `pip install -r requirements.txt`
