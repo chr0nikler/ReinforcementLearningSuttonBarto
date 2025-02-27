@@ -5,9 +5,6 @@ from tqdm import tqdm
 from collections import defaultdict
 from matplotlib import pyplot as plt
 
-
-
-
 class BlackjackAgent:
     def __init__(
         self,
@@ -133,7 +130,7 @@ axs[2].set_title("Training Error")
 training_error_moving_average = get_moving_avgs(
     agent.training_error,
     rolling_length,
-    "same"
+    "valid"
 )
 axs[2].plot(range(len(training_error_moving_average)), training_error_moving_average)
 plt.tight_layout()
