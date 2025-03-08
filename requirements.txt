@@ -6,3 +6,5 @@ tqdm==4.66.5
 matplotlib
 scipy
 pygame
+jupyterlab
+ipykernel
